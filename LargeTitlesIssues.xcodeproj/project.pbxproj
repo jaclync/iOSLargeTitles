@@ -15,6 +15,7 @@
 		020927612595B076006EBBDE /* LargeTitlesIssuesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020927602595B076006EBBDE /* LargeTitlesIssuesTests.swift */; };
 		0209276C2595B076006EBBDE /* LargeTitlesIssuesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0209276B2595B076006EBBDE /* LargeTitlesIssuesUITests.swift */; };
 		020927862595B707006EBBDE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020927852595B707006EBBDE /* DetailsViewController.swift */; };
+		0238DDEB2599FD0F008EC3E9 /* TabbedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0238DDEA2599FD0F008EC3E9 /* TabbedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		0209276B2595B076006EBBDE /* LargeTitlesIssuesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeTitlesIssuesUITests.swift; sourceTree = "<group>"; };
 		0209276D2595B076006EBBDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		020927852595B707006EBBDE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		0238DDEA2599FD0F008EC3E9 /* TabbedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				020927542595B076006EBBDE /* LaunchScreen.storyboard */,
 				020927572595B076006EBBDE /* Info.plist */,
 				020927852595B707006EBBDE /* DetailsViewController.swift */,
+				0238DDEA2599FD0F008EC3E9 /* TabbedViewController.swift */,
 			);
 			path = LargeTitlesIssues;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0238DDEB2599FD0F008EC3E9 /* TabbedViewController.swift in Sources */,
 				0209274E2595B074006EBBDE /* ViewController.swift in Sources */,
 				0209274A2595B074006EBBDE /* AppDelegate.swift in Sources */,
 				0209274C2595B074006EBBDE /* SceneDelegate.swift in Sources */,

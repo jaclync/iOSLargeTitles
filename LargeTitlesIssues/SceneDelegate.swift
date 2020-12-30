@@ -65,12 +65,17 @@ private extension SceneDelegate {
     func configureTabBarController(_ tabBarController: UITabBarController) {
         tabBarController.view.backgroundColor = .orange
 
-        let viewController = ViewController()
-        let navigationController = UINavigationController(rootViewController: viewController)
+        let navigationController = UINavigationController()
+        navigationController.viewControllers = [ViewController()]
         navigationController.navigationBar.prefersLargeTitles = true
 
+        let tabbedNavigationController = UINavigationController()
+        tabbedNavigationController.viewControllers = [TabbedViewController()]
+        tabbedNavigationController.navigationBar.prefersLargeTitles = true
+
         tabBarController.viewControllers = [
-            navigationController
+            navigationController,
+            tabbedNavigationController
         ]
     }
 }
